@@ -4,7 +4,12 @@
 const browsersync = require("browser-sync").create();
 const del = require("del");
 const gulp = require("gulp");
+const sass = require('gulp-sass');
 const merge = require("merge-stream");
+const postcss = require("gulp-postcss");
+const autoprefixer = require("autoprefixer");
+const cssnano = require("cssnano");
+const sourcemaps = require("gulp-sourcemaps");
 
 // BrowserSync
 function browserSync(done) {
@@ -25,7 +30,28 @@ function browserSyncReload(done) {
 
 // Clean vendor
 function clean() {
-  return del(["./vendor/"]);
+  return del(["./vendor/", "css/main.css"]);
+}
+
+// Define tasks after requiring dependencies
+function style() {
+    // Where should gulp look for the sass files?
+    // My .sass files are stored in the styles folder
+    // (If you want to use scss files, simply look for *.scss files instead)
+    return (
+        gulp
+            .src("styles/*.scss")   
+            // Initialize sourcemaps before compilation starts
+            .pipe(sourcemaps.init())
+            .pipe(sass())
+            // Use sass with the files found, and log any errors    
+            .on("error", sass.logError)
+            // Use postcss with autoprefixer and compress the compiled file using cssnano
+            .pipe(postcss([autoprefixer(), cssnano()]))
+            // Now add/write the sourcemaps
+            .pipe(sourcemaps.write())
+            .pipe(gulp.dest("css"))    
+    );
 }
 
 // Bring third party dependencies from node_modules into vendor directory
@@ -46,16 +72,19 @@ function modules() {
 function watchFiles() {
   gulp.watch("./**/*.css", browserSyncReload);
   gulp.watch("./**/*.html", browserSyncReload);
+  gulp.watch("./**/*.scss", style);
 }
 
 // Define complex tasks
-const vendor = gulp.series(clean, modules);
+const vendor = gulp.series(clean, modules, style);
 const build = gulp.series(vendor);
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
 // Export tasks
 exports.clean = clean;
+exports.style = style;
 exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
+exports.style = style;

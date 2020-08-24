@@ -2,29 +2,27 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Business Frontpage - Start Bootstrap Template</title>
+  <title>Eternal Kings MC - Phoenix</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="css/business-frontpage.css" rel="stylesheet">
-
+  <link href="css/main.css" rel="stylesheet" />
 </head>
 
 <body>
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Eternal Kings Phoenix</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -35,13 +33,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Mission</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -49,103 +44,152 @@
   </nav>
 
   <!-- Header -->
-  <header class="bg-primary py-5 mb-5">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2">Business Name or Tagline</h1>
-          <p class="lead mb-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.</p>
+  <header class="py-3 mb-5">
+    <div class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-4">
+            <img class="img-fluid" src="img/logo_main.png" />
+          </div>
+          <div class="col-sm-8">
+            <p class="lead mb-5 text-white-100">
+              "Eternal Kings Motorcycle Club is a Phoenix based Outcast MC
+              support club. We are a brotherhood of like minded motorcycle
+              enthusiasts. If you're interested in riding with us and joining
+              our brotherhood, send us a message or give us a call."
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </header>
 
   <!-- Page Content -->
-  <div class="container">
-
+  <div class="content container pt-5">
+    <!-- Mission Statement -->
     <div class="row">
-      <div class="col-md-8 mb-5">
-        <h2>What We Do</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-        <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
+      <div class="col-sm12 mb-5">
+        <h2>Mission Statement</h2>
+        <hr />
+        <p>
+          The purpose of Eternal Kings Motorcycle Club is to build a men's MC
+          and a brotherhood of men that share a love for riding motorcycles,
+          having barbecues and enjoying life.
+        </p>
+        <p>
+          We are 100% diverse and welcome members of every ethnicity. We
+          respect and value the MC protocol. Our motto is "Leave Your Mark" as
+          we believe we as a brotherhood of Kings should strive to be
+          remembered by our actions. We look forward to connecting with you.
+        </p>
       </div>
-      <div class="col-md-4 mb-5">
+    </div>
+    <!-- /.row -->
+
+    <!-- Form -->
+    <div class="row">
+      <div class="container">
+
+
         <h2>Contact Us</h2>
-        <hr>
-        <address>
-          <strong>Start Bootstrap</strong>
-          <br>3481 Melrose Place
-          <br>Beverly Hills, CA 90210
-          <br>
-        </address>
-        <address>
-          <abbr title="Phone">P:</abbr>
-          (123) 456-7890
-          <br>
-          <abbr title="Email">E:</abbr>
-          <a href="mailto:#">name@example.com</a>
-        </address>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
     <!-- /.row -->
-
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="https://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="https://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="https://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
-    </div>
-    <!-- /.container -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contacts col-sm-12 mb-5">
+            <h4>Contact Info</h4>
+            <hr />
+            <div class="row">
+              <div class="col-sm-2">
+                <img class="img-fluid" src="img/social/email.png" />
+              </div>
+              <div class="col-sm-10">
+                <a href="EternalKingsMC.com">EternalKingsMC@gmail.com</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-2">
+                <img class="img-fluid" src="img/social/website.png" />
+              </div>
+              <div class="col-sm-10">
+                <a href="EternalKingsMC.com">EternalKingsMC.com</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-2">
+                <img class="img-fluid" src="img/social/telephone.png" />
+              </div>
+              <div class="col-sm-10">
+                (602) 753-8059
+              </div>
+            </div>
+            <!-- -->
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="contacts col-sm-12 mb-5">
+            <h4>Social Media</h4>
+            <hr />
+            <div class="row">
+              <div class="col-sm-2">
+                <img class="img-fluid" src="img/social/facebook.png" />
+              </div>
+              <div class="col-sm-10">
+                <a href="https://www.facebook.com/eternalkingsphx">facebook.com/eternalkingsphx</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-2">
+                <img class="img-fluid" src="img/social/instagram.png" />
+              </div>
+              <div class="col-sm-10">
+                <a href="https://www.instagram.com/eternalkingsphx/">@EternalKingsPhx</a>
+              </div>
+            </div>
+            <!-- -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="m-0 text-center text-white">
+            Copyright &copy; Eternal Kings MC 2020
+          </p>
+        </div>
+
+      </div>
+
+
+      <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
