@@ -16,5 +16,13 @@
 @import "_palette.scss";
 @import "_bootstrap.scss";
 @import "_bootswatch.scss";
-@import "_custom.scss";
+@import "_navbar.scss";
 @import "_header.scss";
+@import "_footer.scss";
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+}

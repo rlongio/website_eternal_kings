@@ -1,0 +1,30 @@
+// Navs ========================================================================
+
+.nav-link,
+.nav-link.active,
+.nav-link.active:focus,
+.nav-link.active:hover .nav-item.open .nav-link,
+.nav-item.open .nav-link:focus {
+    margin: 0px 25px;
+    border-radius: 5px;
+    font-size: 1.25em;
+}
+
+.nav-item.open .nav-link:hover {
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: $indigo;
+}
+
+.navbar-brand {
+    img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.bg-black {
+    background-color: $black;
+}

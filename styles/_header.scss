@@ -1,3 +1,27 @@
-.header-logo {
-    padding-top: 5px;
+.hero {
+    background-image: url('../img/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero-content {
+    padding-top: 100px;
+}
+
+.hero-logo {
+    margin: 50px;
+    max-height: 500px;
+}
+
+.hero-action {
+    margin-top: 150px;
+    background-color: $black-opaque;
+    min-height: 500px;
+    max-width: 500px;
+    border-radius: 25px;
+
+    .content {
+        padding: 50px 25px;
+    }
 }
