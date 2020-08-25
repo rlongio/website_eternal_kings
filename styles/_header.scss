@@ -2,7 +2,7 @@
     background-image: url('../img/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 
 .hero-content {
@@ -17,7 +17,7 @@
 .hero-action {
     margin-top: 150px;
     background-color: $black-opaque;
-    min-height: 500px;
+    min-height: 400px;
     max-width: 500px;
     border-radius: 25px;
 

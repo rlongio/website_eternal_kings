@@ -20,5 +20,14 @@ footer {
         a:hover {
             color: $french-violet;
         }
+
+        li {
+            padding-bottom: 10px;
+        }
+
+        h4 {
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
     }
 }
