@@ -18,13 +18,12 @@
     background-color: $indigo;
 }
 
-.navbar-brand {
-    img {
-        height: 150px;
-        width: 150px;
-    }
+.navbar-brand .nav-logo {
+    height: 125px;
+    margin-right: 20px;
 }
 
-.bg-black {
-    background-color: $black;
+.navbar {
+    background-color: $eerie-black;
+    border-bottom: 1px solid $black-opaque;
 }

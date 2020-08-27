@@ -1,5 +1,4 @@
 footer {
-    background-image: url('../img/black_skull_footer.png');
     background-size: contain;
     background-clip: padding-box;
     background-repeat: no-repeat;
@@ -18,7 +17,7 @@ footer {
         }
 
         a:hover {
-            color: $french-violet;
+            color: $white;
         }
 
         li {
@@ -29,5 +28,13 @@ footer {
             margin-bottom: 25px;
             text-transform: uppercase;
         }
+    }
+
+    .outlaw-badge {
+        max-width: 30vw;
+    }
+
+    .copyright {
+        margin-top: 45px;
     }
 }

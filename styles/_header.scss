@@ -1,27 +1,26 @@
 .hero {
-    background-image: url('../img/hero.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 150vh;
+  color: white;
+  background-color: black;
+  padding: 10vh 5vh;
 }
 
 .hero-content {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .hero-logo {
-    margin: 50px;
-    max-height: 500px;
+  max-width: 40vh;
+  margin: 2em 3em;
 }
 
 .hero-action {
-    margin-top: 150px;
-    background-color: $black-opaque;
-    min-height: 400px;
-    max-width: 500px;
-    border-radius: 25px;
+  display: block;
+  background-color: $gray-opaque;
+  max-width: 500px;
+  margin-right: 50px;
+  border-radius: 25px;
 
-    .content {
-        padding: 50px 25px;
-    }
+  .content {
+    padding: 50px 25px;
+  }
 }
