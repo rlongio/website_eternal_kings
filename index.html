@@ -23,7 +23,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black">
+  <nav id="navbar-main" class="navbar navbar-expand-lg navbar-dark fixed-top bg-black">
     <div class="container">
       <a class="navbar-brand" href="#">Eternal Kings MC</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -31,11 +31,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="nav nav-pills nav-fill ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
+        <ul class="nav nav-pills ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#mission">Mission</a>
@@ -48,7 +46,7 @@
     </div>
   </nav>
   <!---->
-
+  
   <!-- Hero -->
   <header>
     <div class="container-fluid hero">
@@ -72,7 +70,7 @@
                 Interested in riding with us? Send your email and we'll get in touch with you.
               </p>
               <form name="request_for_info" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-                <p class="hidden">
+                <p class="hp">
                   <label>Galaxy: <input name="bot-field" /></label>
                 </p>
                 <div class="form-group">
@@ -197,6 +195,7 @@
       </div>
     </div>
   </div>
+  <!-- Contact Us End -->
 
 
   <!-- Footer -->

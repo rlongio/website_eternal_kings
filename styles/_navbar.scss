@@ -8,13 +8,13 @@
     margin: 0px 25px;
     border-radius: 5px;
     font-size: 1.25em;
-}
-
-.nav-item.open .nav-link:hover {
     color: #fff;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link .nav-link.active:hover .nav-item.open .nav-link {
+    color: #fff;
     background-color: $indigo;
 }
 
