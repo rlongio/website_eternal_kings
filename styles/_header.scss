@@ -9,18 +9,29 @@
 }
 
 .hero-logo {
-  max-width: 40vh;
-  margin: 2em 3em;
+  width: calc(25vw + 10em);
+  margin: 2em .5em;
+}
+
+.hero-badge {
+  max-width: 12vw;
 }
 
 .hero-action {
   display: block;
   background-color: $gray-opaque;
   max-width: 500px;
+  height: 100%;
   margin-right: 50px;
   border-radius: 25px;
 
   .content {
     padding: 50px 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-action {
+    height: 60%;
   }
 }
