@@ -30,7 +30,7 @@ function browserSyncReload(done) {
 
 // Clean vendor
 function clean() {
-  return del(["./dist"]);
+  return del(["dist/**"]);
 }
 
 // Copy static files
