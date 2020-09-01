@@ -1,10 +1,12 @@
 # Eternal Kings MC Website
 
+<img src=https://eternal-kings.netlify.app/img/logos/logo_main.png alt="logo"  style="display: block; margin-left:auto; margin-right:auto; width: 50%; max-width:200px"/>
+
 ## Development
 
 To begin development of the site:
 
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-business-frontpage.git`
+- Clone the repo: `git clone https://github.com/rlongio/eternal_knights_website.git`
 - `cd` into the directory created and enter `npm install` to install all dev dependencies.
 - Run command `npm start`. This will start a development server with live reloading so that you can see the changes you make live via a local server.
 
