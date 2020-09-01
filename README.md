@@ -4,39 +4,22 @@
 
 To begin development of the site:
 
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-business-frontpage.git`
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-business-frontpage.git`
+- `cd` into the directory created and enter `npm install` to install all dev dependencies.
+- Run command `npm start`. This will start a development server with live reloading so that you can see the changes you make live via a local server.
 
 You must have npm and Gulp installed globally on your machine in order to use these features.
 
-## Bugs and Issues
+## Netlify
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-business-frontpage/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/templates/business-frontpage/).
+To deploy, simply commit your changes and push to the master branch of the repository. Netlify is setup to take care of the rest.
 
-## About
+It will automatically optimize images and fonts for speed. As long as the domain host has an A Record and CNAME record pointing approriately, you can set it and forget it.
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+## Build
 
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
+Netlify will run the command `gulp build` to build the production version of the wesbite. You can enter the same command in your terminal to see the production version. The production version is optimized for speed and will not include and dev dependencies.
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+## Issues
 
-* <http://davidmiller.io>
-* <https://twitter.com/davidmillerskt>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/gh-pages/LICENSE) license.
+Contact Ryan Long <ryan@rlong.io>
