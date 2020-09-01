@@ -1,6 +1,10 @@
 # Eternal Kings MC Website
 
-<img src="https://eternal-kings.netlify.app/img/logos/logo_main.png" width=50% alt="logo"  style="display: block; margin-left:auto; margin-right:auto; width: 50%; max-width:200px"/>
+<div align="center">
+<img src="https://eternal-kings.netlify.app/img/logos/logo_main.png" width=35% alt="logo"/>
+<div/>
+
+<div align="left">
 
 ## Development
 
@@ -25,3 +29,5 @@ Netlify will run the command `gulp build` to build the production version of the
 ## Issues
 
 Contact Ryan Long <ryan@rlong.io>
+
+</div>
