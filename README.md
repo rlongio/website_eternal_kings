@@ -1,20 +1,4 @@
-# [Start Bootstrap - Business Frontpage](https://startbootstrap.com/templates/business-frontpage/)
 
-[Business Frontpage](https://startbootstrap.com/templates/business-frontpage/) is a basic business website template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
-
-## Preview
-
-[![Business Frontpage Preview](https://startbootstrap.com/assets/img/screenshots/templates/business-frontpage.png)](https://startbootstrap.github.io/startbootstrap-business-frontpage/)
-
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-business-frontpage/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-business-frontpage/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-business-frontpage.svg)](https://www.npmjs.com/package/startbootstrap-business-frontpage)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-business-frontpage.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-business-frontpage)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-business-frontpage/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-business-frontpage)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-business-frontpage/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-business-frontpage?type=dev)
 
 ## Download and Installation
 
