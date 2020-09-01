@@ -1,6 +1,6 @@
 # Eternal Kings MC Website
 
-![logo](https://eternal-kings.netlify.app/img/logos/logo_main.png | width=50)
+![logo](<https://eternal-kings.netlify.app/img/logos/logo_main.png> | width=50)
 
 ## Development
 
