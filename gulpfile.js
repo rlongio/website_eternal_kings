@@ -30,7 +30,7 @@ function browserSyncReload(done) {
 
 // Clean vendor
 function clean() {
-  return del(["dist/**"]);
+  return del(["./dist/**"]);
 }
 
 // Copy static files
@@ -38,17 +38,17 @@ function main() {
   // Fonts
   var fonts = gulp
     .src("fonts/**/*")
-    .pipe(gulp.dest("dist/fonts"))
+    .pipe(gulp.dest("./dist/fonts"))
 
   // Index
   var index = gulp
     .src("index.html")
-    .pipe(gulp.dest("dist"))
+    .pipe(gulp.dest("./dist"))
 
   // Images
   var img = gulp
     .src("img/**/*")
-    .pipe(gulp.dest("dist/img"))
+    .pipe(gulp.dest("./dist/img"))
   return merge(img, fonts, index)
 }
 
@@ -77,13 +77,13 @@ function style() {
 function modules() {
   // Bootstrap
   var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
-    .pipe(gulp.dest('/dist/vendor/bootstrap'));
+    .pipe(gulp.dest('./dist/vendor/bootstrap'));
   // jQuery
   var jquery = gulp.src([
       './node_modules/jquery/dist/*',
       '!./node_modules/jquery/dist/core.js'
     ])
-    .pipe(gulp.dest('dist/vendor/jquery'));
+    .pipe(gulp.dest('./dist/vendor/jquery'));
   return merge(bootstrap, jquery);
 }
 
