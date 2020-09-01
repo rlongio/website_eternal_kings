@@ -1,5 +1,5 @@
 [[plugins]]
-package = "netlify-plugin-checklinks, netlify-plugin-hashfiles"
+package = "netlify-plugin-checklinks"
 
 [plugins.inputs]
   # An array of glob patterns for pages on your site. Recursive traversal will start from these
@@ -7,5 +7,13 @@ package = "netlify-plugin-checklinks, netlify-plugin-hashfiles"
     "*.html"
   ]
 
+[[plugins]]
+package = "netlify-plugin-hashfiles"
+
+[plugins.inputs]
+  # An array of glob patterns for pages on your site. Recursive traversal will start from these
+  entryPoints = [
+    "*.html"
+  ]
 # Directory where content-addressable files are moved and immutable cache-headers are set
 staticDir = "/static/"
