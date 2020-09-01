@@ -30,7 +30,7 @@ function browserSyncReload(done) {
 
 // Clean vendor
 function clean() {
-  return del(["./dist/**"]);
+  return del(["./dist", "./css/*"]);
 }
 
 // Copy static files
@@ -53,7 +53,11 @@ function main() {
   var components = gulp
     .src("components/**/*")
     .pipe(gulp.dest("./dist/components"))
-  return merge(img, fonts, index)
+  
+  var styles = gulp
+    .src("css/**/*")
+    .pipe(gulp.dest("./dist/css"))
+  return merge(img, fonts, index, components, styles)
 }
 
 // Define tasks after requiring dependencies
@@ -73,7 +77,7 @@ function style() {
     .pipe(postcss([autoprefixer(), cssnano()]))
     // Now add/write the sourcemaps
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest("./dist/css"))
+    .pipe(gulp.dest("./css"))
   );
 }
 
