@@ -1,13 +1,10 @@
+# Eternal Kings MC Website
 
+## Development
 
-## Download and Installation
+To begin development of the site:
 
-To begin using this template, choose one of the following options to get started:
-
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/templates/business-frontpage/)
-* Install via npm: `npm i startbootstrap-business-frontpage`
 * Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-business-frontpage.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-business-frontpage)
 
 ## Usage
 

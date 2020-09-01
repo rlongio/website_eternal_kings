@@ -17,3 +17,11 @@ package = "netlify-plugin-hashfiles"
   ]
 # Directory where content-addressable files are moved and immutable cache-headers are set
 staticDir = "/static/"
+
+[[plugins]]
+
+[plugins.inputs]
+  # An array of glob patterns for pages on your site. Recursive traversal will start from these
+  entryPoints = [
+    "*.html"
+  ]
