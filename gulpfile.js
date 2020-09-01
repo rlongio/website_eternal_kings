@@ -49,6 +49,10 @@ function main() {
   var img = gulp
     .src("img/**/*")
     .pipe(gulp.dest("./dist/img"))
+  
+  var components = gulp
+    .src("components/**/*")
+    .pipe(gulp.dest("./dist/components"))
   return merge(img, fonts, index)
 }
 
