@@ -1,0 +1,31 @@
+.hero {
+  color: white;
+  background-color: black;
+  padding: 10vh 5vh;
+}
+
+.hero-content {
+  padding-top: 100px;
+}
+
+.hero-logo {
+  width: calc(25vw + 10em);
+  margin: 2em .5em;
+}
+
+.hero-badge {
+  max-width: 30vh;
+}
+
+.hero-action {
+  display: block;
+  background-color: $gray-opaque;
+  max-width: 500px;
+  margin-right: 50px;
+  border-radius: 25px;
+  padding: 50px 25px;
+}
+
+.hp {
+  display: none;
+}

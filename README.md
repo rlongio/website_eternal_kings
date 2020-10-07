@@ -1,4 +1,4 @@
-# Eternal Kings MC Website
+# Eternal Kings MS Website
 
 <div align="center">
 <img src="https://eternal-kings.netlify.app/img/logos/logo_main.png" width=35% alt="logo"/>
