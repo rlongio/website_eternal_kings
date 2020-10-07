@@ -21,7 +21,7 @@ class HeaderLogos extends React.Component {
     return (
       <div className='col-lg-8 d-flex align-items-center justify-content-center'>
         <img className='hero-logo' src={Logo} alt='' />
-        <img className='hero-badge' src={BadgeWhite} alt='' />
+        {/* <img className='hero-badge' src={BadgeWhite} alt='' /> */}
       </div>
     )
   }

@@ -46,18 +46,18 @@ class Footer extends React.Component {
                 <li>
                   <h4>Social Media</h4>
                 </li>
-                <li className='media'>
+                {/* <li className='media'>
                   <a href='https://www.facebook.com/eternalkingsphx'>
                     <img className='mr-2' src={SocialFacebook} alt='' />
                     <div className='media-body'>
                       facebook.com/eternalkingsphx
                     </div>
                   </a>
-                </li>
+                </li> */}
                 <li className='media'>
                   <a href='https://www.instagram.com/eternalkingsphx/'>
                     <img className='mr-2' src={SocialInstagram} alt='' />
-                    <div className='media-body'>@EternalKingsPhx</div>
+                    <div className='media-body'>@EternalKingsMS</div>
                   </a>
                 </li>
               </ul>
@@ -77,7 +77,7 @@ function Copyright () {
         <p className='m-0 text-center text-white'>
           Copyright &copy; Eternal Kings MS
           <script type='text/javascript'>
-            document.write(new Date().getFullYear());
+            {document.write(new Date().getFullYear())}
           </script>
           <br />
           <sub>
