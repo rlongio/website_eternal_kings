@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, BadgeWhite } from '../img/Library'
+import { Logo } from '../img/Library'
 
 class Header extends React.Component {
   render () {
