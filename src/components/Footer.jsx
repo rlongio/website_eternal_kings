@@ -74,10 +74,7 @@ function Copyright () {
     <div className='row'>
       <div className='col-12 copyright'>
         <p className='m-0 text-center text-white'>
-          Copyright &copy; Eternal Kings MS
-          <script type='text/javascript'>
-            {document.write(new Date().getFullYear())}
-          </script>
+          Copyright &copy; Eternal Kings MS {new Date().getFullYear()}
           <br />
           <sub>
             Site designed by <a href='https://rlong.io'>rlong.io</a>
